@@ -1,4 +1,4 @@
-.html{
+*{
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -7,4 +7,4 @@
   max-width: 1140px;
   margin: 0 auto;
 }
-@import ./components/header.scss
+@import './components/header.scss'
