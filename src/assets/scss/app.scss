@@ -1,10 +1,10 @@
-$primary-color: #dc780b;
-html{
-  color: $primary-color;
+.html{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-.item{
-  color:red;
-  &__img{}
-  &__title{}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
 }
-@import './components/header.scss'
+@import ./components/header.scss
