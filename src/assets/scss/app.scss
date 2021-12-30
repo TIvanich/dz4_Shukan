@@ -1,10 +1,5 @@
-*{
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-}
-.container{
-  max-width: 1140px;
-  margin: 0 auto;
-}
-@import './components/header.scss'
+@import './main/stylesheet.scss';
+@import './main/reset.scss';
+@import './main/header.scss';
+@import './main/main.scss';
+
