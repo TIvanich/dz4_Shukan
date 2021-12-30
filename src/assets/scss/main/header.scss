@@ -1,0 +1,51 @@
+@import './vars.scss';
+
+.header{
+    padding: 15px;
+}
+.menu{
+    display: flex;
+    justify-items: center;
+    position: relative;
+}
+.menu__logo{
+    justify-content: center;
+    margin-right: 35px;
+}
+.menu__push{
+    align-items: center;
+    padding-top: 12px;
+}
+.menu__push a{
+    padding: 12px;
+    margin-right: 28px;
+    margin-top: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $primary-color;
+    text-decoration: none; 
+}
+.menu__push a:first-child{
+    color: $secondary-color;
+}
+.menu__login{
+    position: absolute;
+    right: 0%;
+}
+.menu__login button{
+    padding: 14px 30px;
+    background-color: $secondary-color;
+    border-radius: 5px;
+    color: rgba(255, 255, 255,1);
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.menu__login button:hover{
+    border: 1px solid $secondary-color;
+    cursor: pointer;
+}
