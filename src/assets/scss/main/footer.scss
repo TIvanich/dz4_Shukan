@@ -1,0 +1,39 @@
+.footer{
+  background-color: #252525;;
+}
+.navigations{
+  display: flex;
+  margin-top: 137px;
+  margin-bottom: 107px;
+}
+.navigations__section{
+  display: block;
+  width: 100%;
+}
+.navigation__logo{
+  height: 60px;
+  width: 60px;
+}
+.navigations__section a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.navigation__link{
+  margin-bottom: 20px;
+}
+.navigations__section:first-child{
+  margin-bottom: 26px;
+}
+.navigation__link-logo a{
+  margin-right: 10px;
+}
+.navigation__link-tittle a{
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
