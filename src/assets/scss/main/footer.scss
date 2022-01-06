@@ -13,6 +13,7 @@
 .navigation__logo{
   height: 60px;
   width: 60px;
+  margin-bottom: 6px;
 }
 .navigations__section a {
   text-decoration: none;
@@ -32,8 +33,15 @@
 .navigation__link-logo a{
   margin-right: 10px;
 }
+.navigation__link-tittle{
+  margin-bottom: 26px;
+}
 .navigation__link-tittle a{
+  font-family: 'Philosopher', sans-serif;
   margin-bottom: 20px;
   font-style: normal;
   font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
