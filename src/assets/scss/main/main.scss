@@ -2,7 +2,7 @@
 
 
 html{
-  font-family: $primary-font;
+  font-family: $primary-font, sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 1.4;
@@ -20,7 +20,7 @@ html{
   align-items: center;
 }
 .herosection__text h1{
-  font-family: $secondary-font;
+  font-family: $secondary-font, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48.83px;
@@ -29,7 +29,7 @@ html{
   margin-bottom: 42px;
 }
 .herosection__text h4{
-  font-family: $primary-font;
+  font-family: $primary-font, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -43,7 +43,7 @@ html{
 }
 .herosection__btn{
   padding: 20px 40px;
-  background-color: $secondary-color;
+  background-color: $secondary-color, sans-serif;
   color: white;
   outline: none;
   text-decoration: none;
@@ -83,6 +83,7 @@ html{
 }
 .infosection__tittle{
   text-align: center;
+  margin-bottom: 44px;
 }
 .infosection__signature3{
   font-family: Roboto;
@@ -105,6 +106,49 @@ html{
   text-transform: capitalize;
   color: $primary-color;
 }
-.infosection_spec{
+.infosection__spec{
   display: flex;
+}
+.infosection__img{
+  padding: 24px 45px;
+  background-color: rgba(230, 77, 46, 0.08);
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+}
+.infosection__img{
+  position: relative;
+}
+.infosection__img{
+  margin: auto;
+}
+.infosection__frame{
+  position: absolute;
+  left: 28%;
+}
+.infosection__frame-smile{
+  position: absolute;
+  left: 22%;
+  bottom: 18%;
+}
+.infosection__text{
+  text-align: center;
+  margin-top: 33px;
+}
+.infosection__text h5{
+  font-family: 'Philosopher', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 1);
+  margin-bottom: 15px;
+}
+.infosection__text p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 0.7);
 }
