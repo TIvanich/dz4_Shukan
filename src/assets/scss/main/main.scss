@@ -15,3 +15,96 @@ html{
   padding: 15px;
   margin: 0 auto;
 }
+.herosection{
+  display: flex;
+  align-items: center;
+}
+.herosection__text h1{
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48.83px;
+  line-height: 58px;
+  color: #150C01;
+  margin-bottom: 42px;
+}
+.herosection__text h4{
+  font-family: $primary-font;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 0.7);
+  min-width: 555px;
+  margin-bottom: 50px;
+}
+.herosection__imgs{
+  position: relative;
+  left: 2%;
+}
+.herosection__btn{
+  padding: 20px 40px;
+  background-color: $secondary-color;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  margin-right: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.herosection__btn-2{
+  border: 1.5px solid rgba(220, 120, 11, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px 40px;
+  background-color: white;
+  color: $secondary-color;  
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.herosection__btn:hover{
+  background-color: rgba(220, 120, 11, 0.9);
+}
+.herosection__btn-2:hover{
+  border: 1.5px solid rgba(220, 120, 11, 1);
+}
+.infosection__tittle{
+  text-align: center;
+}
+.infosection__signature3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(220, 120, 11, 0.7);
+  margin-bottom: 7px;
+}
+.infosection__signature2{
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: $primary-color;
+}
+.infosection_spec{
+  display: flex;
+}

@@ -1,6 +1,23 @@
 extends layout/layout.pug
 include mixins/item        
 block main
-    +item("assets/imgs/cat.jpeg","Заголовок <b>наш</b>")
-    .test    
+    .container
+        .herosection
+            .herosection__text
+                h1 Making time a good time by making food the good food.
+                h4 There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment.
+                button.herosection__btn Order Now
+                button.herosection__btn-2 Food Details
+            .herosection__imgs
+                img(src="assets/imgs/kotleta.png", alt="kotleta")    
+    .container
+        .infosection
+            .infosection__tittle
+                h3.infosection__signature3 Features
+                h2.infosection__signature2 Food with a New Passion
+            .infosection__spec
+                
+
+            
+   
         
