@@ -219,3 +219,26 @@ html{
 .rating{
   margin-right: 30px;
 }
+.bottom__button{
+  margin-top: 50px;
+  margin-bottom: 105px;
+  text-align: center;
+}
+.bottom__button1{
+  padding: 12px 30px;
+  outline: none;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid #DC780B;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgba(220, 120, 11, 1);
+  cursor: pointer;
+}
+.bottom__button1:hover{
+  background-color: rgba(220, 120, 11, 0.11);
+}
