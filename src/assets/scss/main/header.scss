@@ -15,6 +15,9 @@
         margin-right: 10px;
         margin-left: 30px;
     }
+    @media (max-width: 440px){
+        display: none;
+    }
 }
 .menu__push{
     align-items: center;
@@ -64,6 +67,18 @@
     @media (max-width: 575px){        
         top: 650%;
         left: 35%;        
+    }
+    @media (max-width: 477px){        
+        top: 750%;
+        left: 30%;        
+    }
+    @media (max-width: 438px){        
+        top: 1050%;
+        left: 30%;        
+    }
+    @media (max-width: 429px){        
+        top: 1130%;
+        left: 28%;        
     }
 }
 .menu__login button{
