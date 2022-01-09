@@ -11,7 +11,7 @@ html{
   color: $primary-color;
 }
 .container{
-  max-width: 1140px;
+  max-width: 1170px;
   padding: 15px;
   margin: 0 auto;
 }
@@ -171,4 +171,51 @@ html{
 }
 .menusection__tittle .infosection__signature2{
   margin-bottom: 25px;
+}
+.menupos{
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu__pos{
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 75px 10px 10px 10px;
+  max-width: 360px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.name__pos{
+  display: flex;
+  justify-content: space-between;
+  font-family: $secondary-font;  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  margin: 20px 25px;
+}
+.name__text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(21, 12, 1, 0.7);
+  margin: 20px 25px;
+}
+.plus{
+  display: flex;
+  justify-content: space-between;
+}
+.name__add img{
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.rating{
+  margin-right: 30px;
 }
