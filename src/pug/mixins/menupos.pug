@@ -1,0 +1,17 @@
+mixin menupos(img, name, price, description, plus, rating)
+    .menu__pos
+        img(src=img, alt="photoeat")
+        .name__pos
+            h4=name
+            h5=price
+        p.name__text=description
+        .plus
+            a.name__add(href="#")
+                img(src=plus, alt="add")
+            .rating
+                img(src=rating, alt="stars")
+                
+                
+            
+        
+    

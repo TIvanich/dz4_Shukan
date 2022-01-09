@@ -1,0 +1,56 @@
+include  ../mixins/menupos.pug
+
+block main 
+  main.main
+        .container
+            .herosection
+              .herosection__text
+                  h1 Making time a good time by making food the good food.
+                  h4 There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment.
+                  button.herosection__btn Order Now
+                  button.herosection__btn-2 Food Details
+              .herosection__imgs
+                  img(src="assets/imgs/kotleta.png", alt="kotleta")    
+        .container
+            .infosection
+                .infosection__tittle
+                    h3.infosection__signature3 Features
+                    h2.infosection__signature2 Food with a New Passion            
+                .infosection__spec
+                    .infosection__block
+                        .infosection__img
+                            img.infosection__frame(src="assets/imgs/frame1.svg", alt="frame1")
+                        .infosection__text
+                            h5 Quality Food
+                            p It can be a very secure path to earn good money and make you very successful creative entrepreneur.
+                    .infosection__block
+                        .infosection__img
+                            img.infosection__frame(src="assets/imgs/frame2.svg", alt="frame1")
+                        .infosection__text
+                            h5 Food Delivery
+                            p It can be a very secure path to earn good money and make you very successful creative entrepreneur.
+                    .infosection__block
+                        .infosection__img
+                            img.infosection__frame-smile(src="assets/imgs/frame3.svg", alt="frame1")
+                        .infosection__text
+                            h5 Super Taste
+                            p It can be a very secure path to earn good money and make you very successful creative entrepreneur.
+        .container
+            .menusection
+                .menusection__tittle
+                    h3.infosection__signature3 Menu
+                    h2.infosection__signature2 Food Full of treaty Love
+                    p There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers,
+                .menupos
+                  +menupos (".//assets/imgs/dish1.png", "Vegie Muffen", "16$", "There are many things are needed to start the Fast Food Business.",
+                  ".//assets/imgs/btnplus.svg","./assets/imgs/stars1.svg")
+                  +menupos (".//assets/imgs/dish2.png", "Salads", "12$", "There are many things are needed to start the Fast Food Business.",
+                  ".//assets/imgs/btnplus.svg","./assets/imgs/stars2.svg")
+                  +menupos (".//assets/imgs/dish3.png", "Burgers", "10$", "There are many things are needed to start the Fast Food Business.",
+                  ".//assets/imgs/btnplus.svg","./assets/imgs/stars3.svg")
+                  +menupos (".//assets/imgs/dish4.png", "Delmonico Steak dish", "14$", "There are many things are needed to start the Fast Food Business.",
+                  ".//assets/imgs/btnplus.svg","./assets/imgs/stars4.svg")
+                  +menupos (".//assets/imgs/dish5.png", "Egg Masala", "9$", "There are many things are needed to start the Fast Food Business.",
+                  ".//assets/imgs/btnplus.svg","./assets/imgs/stars5.svg")
+                  +menupos (".//assets/imgs/dish6.png", "Peach Melba dish", "15$", "There are many things are needed to start the Fast Food Business.",
+                  ".//assets/imgs/btnplus.svg","./assets/imgs/stars6.svg")
