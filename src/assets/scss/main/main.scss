@@ -184,6 +184,9 @@ html{
   margin-right: 20px;
   margin-bottom: 30px;
 }
+.menu__pos:hover{
+  background-color: rgba(220, 120, 11, 0.05);
+}
 .name__pos{
   display: flex;
   justify-content: space-between;
