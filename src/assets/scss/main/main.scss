@@ -18,6 +18,24 @@ html{
 .herosection{
   display: flex;
   align-items: center;
+  @media (max-width: 991px){
+    margin: 0 30px;
+}
+}
+@media (max-width: 991px){
+.herosection__button{
+  display: flex;
+  justify-content: center;  
+}
+}
+@media (max-width: 991px){
+  .herosection__text h1{
+    text-align: center;
+  }
+  .herosection__text h4{
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 .herosection__text h1{
   font-family: $secondary-font, sans-serif;
@@ -27,19 +45,48 @@ html{
   line-height: 58px;
   color: #150C01;
   margin-bottom: 42px;
+  @media (max-width: 991px){
+    max-width: 850px;    
+}
+  @media (max-width: 685px){
+    max-width: 850px;
+    font-size: 40px;
+  }
+  @media (max-width: 575px){
+    font-size: 35px;    
+  }
+  @media (max-width: 520px){
+    font-size: 32px;    
+  }    
 }
 .herosection__text h4{
   font-family: $primary-font, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(21, 12, 1, 0.7);
-  min-width: 555px;
+  color: rgba(21, 12, 1, 0.7);  
   margin-bottom: 50px;
+  @media (max-width: 991px){
+    max-width: 550px;
+    margin-bottom: 100px;
+}
+  @media (max-width: 685px){
+    font-size: 14px;    
+    max-width: 500px;
+}
+@media (max-width: 575px){
+  font-size: 12px;    
+}
+@media (max-width: 520px){
+  font-size: 10px;    
+}  
 }
 .herosection__imgs{
   position: relative;
   left: 2%;
+  @media (max-width: 991px){
+      display: none;
+  }
 }
 .herosection__btn{
   padding: 20px 40px;
@@ -58,6 +105,10 @@ html{
   color: #FFFFFF;
   cursor: pointer;
 }
+// @media (max-width: 990px){
+//   .herosection__text button{
+//     margin-left: 50px;
+//   }
 .herosection__btn-2{
   border: 1.5px solid rgba(220, 120, 11, 0.1);
   box-sizing: border-box;
@@ -108,6 +159,10 @@ html{
 }
 .infosection__spec{
   display: flex;
+  @media (max-width: 991px){
+    display: block;
+    margin: 0 auto;  
+}
 }
 .infosection__img{
   padding: 24px 45px;
@@ -174,7 +229,8 @@ html{
 }
 .menupos{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
+  justify-content: center; 
 }
 .menu__pos{
   background: #FFFFFF;
@@ -212,12 +268,14 @@ html{
   display: flex;
   justify-content: space-between;
 }
-.name__add img{
+.name__add{
   text-decoration: none;
   outline: none;
-  cursor: pointer;
   margin-left: 25px;
   margin-bottom: 25px;
+}
+.name__add img:hover{
+  cursor: pointer;
 }
 .rating{
   margin-right: 30px;

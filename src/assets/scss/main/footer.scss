@@ -5,10 +5,20 @@
   display: flex;
   margin-top: 137px;
   margin-bottom: 107px;
+  justify-content: space-between;
+  @media (max-width: 991px){    
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }  
 }
 .navigations__section{
   display: block;
-  width: 100%;
+  @media (max-width: 991px){
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  
 }
 .navigation__logo{
   height: 60px;
